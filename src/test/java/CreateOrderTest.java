@@ -33,9 +33,11 @@ public class CreateOrderTest {
         token = responseRegister.extract().path("accessToken");
     }
 
-    @AfterClass
-    public static void tearDown(){
-        ValidatableResponse responseDelete = ClientUser.deleteUser(token);
+    @After
+    public void tearDown(){
+        if (token != null){
+            ClientUser.deleteUser(token);
+        }
     }
 
     @Test

@@ -29,11 +29,15 @@ public class GetUserOrdersTest {
         ValidatableResponse responseRegister = ClientUser.registerUser(registerData);
         token = responseRegister.extract().path("accessToken");
         ValidatableResponse responseCreateOrder = OrderClien.createOrder(createOrderData, token);
+        int statusCode = responseCreateOrder.extract().statusCode();
+        Assert.assertEquals(200, statusCode);
     }
 
-    @AfterClass
-    public static void tearDown() {
-        ValidatableResponse responseDelete = ClientUser.deleteUser(token);
+    @After
+    public void tearDown(){
+        if (token != null){
+            ClientUser.deleteUser(token);
+        }
     }
 
     @Test

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="674d708c-e01d-4b6a-860a-d5cb4d3eeef0" name="Changes" comment="Диплом 2 готов" />
+    <list default="true" id="674d708c-e01d-4b6a-860a-d5cb4d3eeef0" name="Changes" comment="Диплом 2 готов">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AuthorizationUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AuthorizationUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetUserOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetUserOrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UpdateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdateUserTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +29,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bI6CSFjvs3Hbxcml4n2XrklfOl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,9 +42,56 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "develop2"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.GetUserOrdersTest">
+    <configuration name="AuthorizationUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AuthorizationUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetUserOrdersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegisterUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetUserOrdersTest" />
+        <item itemvalue="JUnit.RegisterUserTest" />
+        <item itemvalue="JUnit.AuthorizationUserTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -30,7 +30,9 @@ public class AuthorizationUserTest {
 
     @After
     public void tearDown(){
-        ValidatableResponse responseDelete = ClientUser.deleteUser(token);
+        if (token != null){
+            ClientUser.deleteUser(token);
+        }
     }
 
     @Test

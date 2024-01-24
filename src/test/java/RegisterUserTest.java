@@ -34,7 +34,6 @@ public class RegisterUserTest {
         statusCode = responseRegister.extract().statusCode();
         isRegistered = responseRegister.extract().path("success");
 
-        ValidatableResponse responseDelete = ClientUser.deleteUser(token);
 
         Assert.assertEquals(List.of(SC_OK, true),
                 List.of(statusCode, isRegistered));
@@ -51,7 +50,6 @@ public class RegisterUserTest {
         statusCode = responseRegisterTwo.extract().statusCode();
         isRegistered = responseRegisterTwo.extract().path("success");
 
-        ValidatableResponse responseDelete = ClientUser.deleteUser(token);
 
         Assert.assertEquals(List.of(SC_FORBIDDEN, false),
                 List.of(statusCode, isRegistered));
@@ -75,5 +73,12 @@ public class RegisterUserTest {
         return new Object[][]{
                 {EMAIL}, {PASSWORD}, {NAME},
         };
+    }
+
+    @After
+    public void tearDown(){
+        if (token != null){
+            ClientUser.deleteUser(token);
+        }
     }
 }
